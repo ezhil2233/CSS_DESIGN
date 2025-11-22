@@ -1,0 +1,86 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    background: var(--muted);
+    color: #222;
+}
+
+.main-wrap{
+    display: flex;
+}
+
+.navbar{
+    width: 220px;
+    background: #c8102e;
+    height: 100vh;
+}
+.title-text{
+  color: white;
+  padding: 40px;
+  text-decoration: none;
+}
+
+.main-wrap .navbar .navbar-nav .nav-list {
+    margin: 0;
+    padding: 10px 10px;
+}
+
+.main-wrap .navbar .navbar-nav .nav-list .nav-list-item {
+    list-style: none;
+    padding: 10px 10px;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+.main-wrap .navbar .navbar-nav .nav-list .nav-list-item .nav-link {
+    color: #fff;
+    font-size: 10px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+a {
+    text-decoration: none;
+}
+
+.main-wrap .navbar .navbar-nav .nav-list .nav-list-item:hover {
+    background: #a80e26;
+    cursor: pointer;
+}
+
+.main-content{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
+.custom-header{
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 58px;
+    background: #ffffff;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 0 18px;
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.06);
+    z-index: 50;
+}
+
+.conten-section{
+    padding: 12px;
+}
+
+.alert {
+    background: #d4edda ;
+    border: 1px solid var(--success-border);
+    padding: 12px 16px;
+    border-radius: 6px;
+    color: hsl(134, 65%, 24%);
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 18px;
+}
