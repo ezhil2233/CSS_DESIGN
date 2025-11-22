@@ -15,9 +15,16 @@ html, body {
     height: 100vh;
 }
 .title-text{
-  color: white;
-  padding: 40px;
+  padding: 4px;
   text-decoration: none;
+}
+
+.breadgrum-content {
+        padding-left: 70px;
+}
+
+h3{
+    color: white;
 }
 
 .main-wrap .navbar .navbar-nav .nav-list {
@@ -64,7 +71,7 @@ a {
     display: flex;
     align-items: center;
     gap: 16px;
-    padding: 0 18px;
+    padding: 0 10px;
     box-shadow: 0 1px 0 rgba(0, 0, 0, 0.06);
     z-index: 50;
 }
@@ -83,4 +90,44 @@ a {
     align-items: center;
     gap: 12px;
     margin-bottom: 18px;
+}
+
+.menu-btn {
+    width: 40px;
+    height: 38px;
+    border-radius: 6px;
+    background: #c8102e;;
+    color: white;
+    border: none;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08);
+    cursor: pointer;
+}
+
+
+
+/*Item Page Design*/
+.page-grid {
+    display: grid;
+    grid-template-columns: 360px 1fr;
+    gap: 20px;
+    align-items: start;
+    padding:10px 20px;
+}
+
+
+.item-card-section{
+    background: yellowgreen;
+    border-radius: 4px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+
+}
+
+.stock-card-section{
+    background: rgb(205, 179, 50);
+    border-radius: 4px;
 }
