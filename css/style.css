@@ -4,7 +4,7 @@ body {
     margin: 0;
     background: var(--muted);
     color: #222;
-    font-family: system-ui;
+    font-family: cursive;
 }
 
 .main-wrap {
@@ -56,6 +56,10 @@ h3 {
 
 a {
     text-decoration: none;
+}
+
+label{
+    font-weight: 600;
 }
 
 .main-wrap .navbar .navbar-nav .nav-list .nav-list-item:hover {
@@ -194,8 +198,13 @@ form {
 } */
 
 label {
-    font-size: 13px;
-    color: #111827
+    display: block;
+    margin-bottom: 6px; /* Adjust space */
+    font-weight: 400;
+}
+
+.box-header span i {
+    margin-right: 8px;  /* Adjust spacing as you like */
 }
 
 input[type=text],
