@@ -4,6 +4,7 @@ body {
     margin: 0;
     background: var(--muted);
     color: #222;
+    font-family: system-ui;
 }
 
 .main-wrap {
@@ -44,9 +45,13 @@ h3 {
 .main-wrap .navbar .navbar-nav .nav-list .nav-list-item .nav-link {
     color: #fff;
     font-size: 10px;
-    font-family: 'Ubuntu', sans-serif;
     font-weight: 400;
     text-transform: uppercase;
+}
+.main-wrap .navbar .navbar-nav .nav-list .nav-list-item .nav-link .link-text{
+    font-weight: bold;
+    padding: 5px;
+    padding-bottom: 4px;
 }
 
 a {
@@ -174,7 +179,7 @@ a {
     cursor: pointer;
 }
 
-/*#0dc9f4 #1f9bad #6f757ess*/
+/*#0dc9f4 #18a3ba #6f757ess*/
 
 form {
     display: flex;
