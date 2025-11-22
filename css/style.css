@@ -131,3 +131,35 @@ a {
     background: rgb(205, 179, 50);
     border-radius: 4px;
 }
+
+.box {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    overflow: hidden;
+}
+
+.box-header {
+    background: #d9293a;      /* Red banner */
+    color: white;
+    padding: 15px;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 600;
+}
+
+.box-body {
+    padding: 20px;
+    font-size: 16px;
+}
+
+.export-btn {
+    background: #1fbf55;
+    border: none;
+    color: white;
+    padding: 8px 14px;
+    border-radius: 6px;
+    cursor: pointer;
+}
